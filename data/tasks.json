@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-02-13-task-tracker",
+    "completedAt": "2026-02-13T09:25:00-06:00",
+    "title": "Built public assignment tracker + hosting pipeline",
+    "summary": "Created static dashboard (summary cards, filters, task log), seeded initial data, and wired GitHub Pages deployment.",
+    "result": "Site deployed — waiting on first GitHub Pages build to propagate (~2 min).",
+    "status": "completed",
+    "deliverables": [
+      {
+        "label": "Tracker build notes",
+        "url": "https://raw.githubusercontent.com/Austin-Dave/Openclaw-Task/main/deliverables/2026-02-13-task-tracker.md"
+      },
+      {
+        "label": "Live tracker",
+        "url": "https://austin-dave.github.io/Openclaw-Task/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/Austin-Dave/Openclaw-Task"
+      }
+    ],
+    "followUp": "Log each future assignment + ping Austin once Pages build finishes."
+  },
+  {
     "id": "2026-02-11-mercedes-s550",
     "completedAt": "2026-02-11T21:30:00-06:00",
     "title": "Published refreshed 2008 Mercedes-Benz S550 listing",
