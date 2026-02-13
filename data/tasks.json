@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-02-13-business-scout",
+    "completedAt": "2026-02-13T10:10:00-06:00",
+    "title": "Presented sub-$50K DMV business opportunity (dryer vent service)",
+    "summary": "Evaluated mobile dryer vent & air-duct cleaning play under $40K capex with revenue/expense model and step-by-step launch plan.",
+    "result": "Shared breakdown + daily 5 AM cron reminder scheduled for future opportunities.",
+    "status": "completed",
+    "deliverables": [
+      {
+        "label": "Opportunity brief",
+        "url": "https://raw.githubusercontent.com/Austin-Dave/Openclaw-Task/main/deliverables/2026-02-13-business-scout.md"
+      }
+    ],
+    "followUp": "Deliver next opportunity at 5 AM ET tomorrow; build spreadsheet if Austin requests."
+  },
+  {
     "id": "2026-02-13-task-tracker",
     "completedAt": "2026-02-13T09:25:00-06:00",
     "title": "Built public assignment tracker + hosting pipeline",
