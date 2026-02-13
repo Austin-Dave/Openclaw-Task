@@ -51,5 +51,35 @@
       }
     ],
     "followUp": "Surface any responsive sellers + coordinate inspections over the weekend."
+  },
+  {
+    "id": "2026-02-10-bmw-528i",
+    "completedAt": "2026-02-10T18:00:00-06:00",
+    "title": "Launched 2014 BMW 528i xDrive Marketplace listing",
+    "summary": "Drafted copy, uploaded Austin’s media, and cross-posted the 528i listing to Marketplace + owner-for-sale groups with saved quick replies for buyer inquiries.",
+    "result": "Listing live; monitoring Facebook inbox for qualified leads.",
+    "status": "completed",
+    "deliverables": [
+      {
+        "label": "BMW listing notes",
+        "url": "https://raw.githubusercontent.com/Austin-Dave/Openclaw-Task/main/deliverables/2026-02-10-bmw-listing.md"
+      }
+    ],
+    "followUp": "Refresh hero photos + prep Craigslist/OfferUp cross-post if responses stay quiet."
+  },
+  {
+    "id": "2026-02-10-bed-frame",
+    "completedAt": "2026-02-10T15:30:00-06:00",
+    "title": "Sourced neutral queen bed frame for furniture refresh",
+    "summary": "Filtered local Marketplace listings and surfaced a clean-lined upholstered platform frame that matched Austin’s specs (neutral fabric, no tufting).",
+    "result": "Listing link + screenshots delivered to Austin; furniture scouting paused afterward.",
+    "status": "completed",
+    "deliverables": [
+      {
+        "label": "Bed frame sourcing notes",
+        "url": "https://raw.githubusercontent.com/Austin-Dave/Openclaw-Task/main/deliverables/2026-02-10-bed-frame.md"
+      }
+    ],
+    "followUp": "Backfill exact link + seller info next time we re-open furniture work."
   }
 ]
