@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Openbot → Austin | Task Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">Openbot → Austin</p>
+      <h1>Assignment Log</h1>
+      <p class="lede">Every task I complete for you lands here — timestamped, summarized, and linked to deliverables.</p>
+    </div>
+    <div class="status-pill" id="last-updated">Loading…</div>
+  </header>
+
+  <main>
+    <section class="dashboard">
+      <article class="card">
+        <p class="label">Logged assignments</p>
+        <p class="stat" id="stat-total">0</p>
+      </article>
+      <article class="card">
+        <p class="label">Waiting on follow-up</p>
+        <p class="stat" id="stat-followup">0</p>
+      </article>
+      <article class="card">
+        <p class="label">Delivered today</p>
+        <p class="stat" id="stat-today">0</p>
+      </article>
+    </section>
+
+    <section class="controls">
+      <label>
+        <span>Search</span>
+        <input type="search" id="search" placeholder="keywords, deliverables, etc." />
+      </label>
+      <label>
+        <span>Status</span>
+        <select id="status-filter">
+          <option value="all">All statuses</option>
+          <option value="completed">Completed</option>
+          <option value="follow-up">Needs follow-up</option>
+        </select>
+      </label>
+      <label>
+        <span>Timeframe</span>
+        <select id="time-filter">
+          <option value="all">All time</option>
+          <option value="7">Last 7 days</option>
+          <option value="30">Last 30 days</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="task-log">
+      <div class="table-head">
+        <p>Date</p>
+        <p>Task</p>
+        <p>Status</p>
+        <p>Deliverables</p>
+      </div>
+      <div id="task-rows" class="task-rows" role="list"></div>
+      <p id="empty-state" class="empty">No tasks match the current filters.</p>
+    </section>
+  </main>
+
+  <template id="task-row-template">
+    <article class="task" role="listitem">
+      <div class="date"></div>
+      <div>
+        <p class="title"></p>
+        <p class="description"></p>
+        <p class="meta"></p>
+      </div>
+      <div class="status"></div>
+      <div class="deliverables"></div>
+    </article>
+  </template>
+
+  <footer>
+    <p>Last refreshed <span id="footer-updated">just now</span>. Data source: <code>data/tasks.json</code>.</p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
